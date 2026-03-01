@@ -1,3 +1,5 @@
 include:
   - pgadmin.yaml
+  - app.yaml
+
 # ถ้าไม่มี service อื่นที่นี่ ไม่ต้องใส่คำว่า services: ทิ้งไว้
