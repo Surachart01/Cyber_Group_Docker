@@ -1,9 +1,0 @@
-services:
-    sec2-pgadmin:
-        image: dpage/pgadmin4
-        container_name: sec2-group-pgadmin
-        environment:
-          PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
-          PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
-        ports:
-          - "${PGADMIN_PORT}:82"
