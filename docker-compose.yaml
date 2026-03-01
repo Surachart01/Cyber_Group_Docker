@@ -1,2 +1,5 @@
-services:
-  
+include:
+  - pgadmin.yaml
+  - app.yaml
+  - db.yaml
+  - nginx.yaml
