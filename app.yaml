@@ -2,6 +2,9 @@ services:
   s2app:
     image: prawee/strapi:latest
     container_name: 68-s2-application
+    depends_on:
+      s2db:
+        condition: service_healthy
     environment:
       DATABASE_CLIENT: ${APP_DB_CLIENT}
       DATABASE_NAME: ${APP_DB_NAME}
