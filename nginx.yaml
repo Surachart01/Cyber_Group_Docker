@@ -1,7 +1,7 @@
 services:
   webserver:
     image: nginx:alpine
-    container_name: 68-s2-webserver
+    container_name: 68-s2-fouru-webserver
     restart: unless-stopped
     depends_on:
       - s2app
