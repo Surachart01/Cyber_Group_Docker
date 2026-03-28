@@ -1,7 +1,7 @@
 services:
     sec2-pgadmin:
         image: dpage/pgadmin4
-        container_name: sec2-group-pgadmin
+        container_name: 68-s2-fouru-pgadmin
         environment:
           PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
           PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}

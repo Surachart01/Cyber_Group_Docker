@@ -1,7 +1,7 @@
 services:
   s2app:
     image: prawee/strapi:latest
-    container_name: 68-s2-application
+    container_name: 68-s2-fouru-application
     depends_on:
       s2db:
         condition: service_healthy
