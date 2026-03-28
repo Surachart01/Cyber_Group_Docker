@@ -3,6 +3,8 @@ services:
     image: nginx:alpine
     container_name: 68-s2-webserver
     restart: unless-stopped
+    depends_on:
+      - s2app
     ports:
       - "${NGINX_PORT:-80}:80"
     volumes:
