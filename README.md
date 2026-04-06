@@ -1,4 +1,4 @@
-# Group 2 Workshop docker-compose
+# Group FOURU Workshop docker-compose
 ## สมาชิก
 - นายสุรชาติ ลิ้มรัตนพันธ์ 6702041510164
 - นายสิรวิชญ์ พานทอง 6702041510270
